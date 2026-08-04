@@ -1,17 +1,17 @@
 {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-.cabecalho {
-padding: 15px 25px;
+   margin:0;
+   padding:0;
 }
 
-.cartao {
-width: 260px;
-height: 200px;
+.cabecalho{
+    padding: 15px 25px;
 }
 
-.cartao-imagem {
-width: 100%;
+.cartao{
+    width: 260px; 
+    height: 200px;
+}
+
+.cartao-frente, .cartao-verso{
+    width: 100%;
 }
