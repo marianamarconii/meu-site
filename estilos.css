@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00ffff;
+    background-color: #9cffff;
 }
 
 .cartao-imagem{
@@ -32,7 +32,7 @@ main{
 }
 
 .cabecalho-link{
-    color: #fff;
+    color: #c0ebe7;
     text-decoration: none;
 }
 
