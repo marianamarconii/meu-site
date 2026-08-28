@@ -1,15 +1,12 @@
-{
-   margin:0;
-   padding:0;
-}
-
+*{margin: 0;
+  padding: 0;  
+} 
 .cabecalho{
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #00ffff;
-    font-size: large;
 }
 
 .cartao-imagem{
