@@ -49,6 +49,7 @@ color: #000000
 .cartao-interno{
 position: relative;
 transition: transform 0.8s;
+transform-style: preserve-3d;
 }
 
 .cartao:hover .cartao-interno {
