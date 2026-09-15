@@ -48,6 +48,11 @@ color: #000000
 
 .cartao-interno{
 position: relative;
+transition: transform 0.8s;
+}
+
+.cartao:hover .cartao-interno {
+    transform: rotateY(180deg);
 }
 
 .cartao-frente, 
