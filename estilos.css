@@ -1,7 +1,8 @@
 *{margin: 0;
   padding: 0;  
 } 
-.cabecalho{
+
+.cabecalho {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
@@ -9,38 +10,46 @@
     background-color: #00ffff;
 }
 
-.cartao-imagem{
+.cartao-imagem {
     width: 200px; 
     height: 260px;
 }
 
-.cartao-frente, .cartao-verso{
+.cartao-frente, .cartao-verso {
     width: 100%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: #a3f8f2; 
 }
 
-main{
+main {
     flex: 1;
 }
 
-.cabecalho-link{
+.cabecalho-link {
     color: #00ffe5;
     text-decoration: none;
 }
 
-h1{
+h1 {
     color: #000000;
     font-size: 34px;
 }
 
-footer{
+footer {
     background-color: #00f7ff;
 padding: 15px 25px;
 color: #000000
+}
+
+.cartao-interno{
+position: relative;
+}
+
+.cartao-frente, .cartao-verso {
+    position: absolute;
 }
