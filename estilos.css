@@ -70,3 +70,6 @@ transform-style: preserve-3d;
 .cartao-verso {
     transform: rotateY(180deg);
 }
+section {
+display: flex;
+}
